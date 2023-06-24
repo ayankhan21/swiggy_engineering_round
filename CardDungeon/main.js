@@ -1,5 +1,5 @@
 const readlineSync = require("readline-sync");
-const { startGame } = require("./controllers/startGame");
+const { startGame } = require("./controllers/InitializeGame");
 
 let gameStatus = true;
 let numberOfPlayers = 0;
